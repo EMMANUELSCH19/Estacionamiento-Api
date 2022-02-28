@@ -5,17 +5,15 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Estacionamiento extends Model
+class Cajones extends Model
 {
     use HasFactory;
 
-    protected $table ='_estacionamiento';
+    protected $table ='_cajones';
+    protected $primaryKey = 'cajon';
 
     protected $fillable = [
-        'matricula',
-        'numero',
-        'entrada',
-        'salida',
+        'cajon',
         'estado',
     ];
 

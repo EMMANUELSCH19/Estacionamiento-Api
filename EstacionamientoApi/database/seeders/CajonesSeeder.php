@@ -6,7 +6,7 @@ use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 
-class EstacionamientoSeeder extends Seeder
+class CajonesSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -15,12 +15,8 @@ class EstacionamientoSeeder extends Seeder
      */
     public function run()
     {
-        // Añadir registros a la tabla _estacionamiento
-        DB::table('_estacionamiento')->insert([
-            'matricula' => 'ABC123',
-            'numero' => '1',
-            'entrada' => '5:00',
-            'salida' => '9:00',
+        DB::table('_cajones')->insert([
+            'estado' => 'libre',
         ]);
     }
 }

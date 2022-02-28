@@ -13,13 +13,9 @@ return new class extends Migration
      */
     public function up()
     {
-        // Crear table _estacionamiento en la BD
-        Schema::create('_estacionamiento', function (Blueprint $table) {
-            $table->id();
-            $table->string('matricula');
-            $table->string('numero')->nullable();
-            $table->string('entrada');
-            $table->string('salida')->nullable();
+        Schema::create('_cajones', function (Blueprint $table) {
+            $table->id('cajon');
+            $table->string('estado');
             $table->timestamps();
         });
     }
@@ -31,6 +27,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('_estacionamiento');
+        Schema::dropIfExists('_cajones');
     }
 };
