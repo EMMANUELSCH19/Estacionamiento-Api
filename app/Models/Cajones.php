@@ -18,7 +18,7 @@ class Cajones extends Model
     ];
 
     protected $hidden = [
-        'create_time',
-        'update_time',
+        'created_at',
+        'updated_at',
     ];
 }
