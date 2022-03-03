@@ -1,6 +1,6 @@
 # Estacionamiento-Api
 
-Heroku: https://estacionamiento-api.herokuapp.com/api/estacionamiento
+Heroku: https://estacionamiento-api.herokuapp.com
 
 
-SwaggerHub: https://app.swaggerhub.com/apis-docs/EmmanuelSaCv/Estacionamiento-Api/1.0#/
+SwaggerHub: https://app.swaggerhub.com/apis-docs/EmmanuelSaCv/Estacionamiento-Api/1.0/
